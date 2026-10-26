@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Politique de confidentialité de Planning Tom Sauvegardes.">
+  <title>Politique de confidentialité — Planning Tom Sauvegardes</title>
+  <style>
+    body { max-width: 48rem; margin: 3rem auto; padding: 0 1.25rem; font: 1rem/1.65 system-ui, sans-serif; color: #202124; }
+    h1, h2, h3 { line-height: 1.25; }
+    a { color: #1558d6; }
+    footer { margin-top: 3rem; color: #5f6368; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="./">Planning Tom Sauvegardes</a></p>
+    <h1>Politique de confidentialité</h1>
+    <p><strong>Dernière mise à jour : 26 octobre 2026</strong></p>
+  </header>
+  <main>
+    <p>Planning Tom Sauvegardes est un outil personnel de sauvegarde vers le compte Google Drive de son utilisateur. Il utilise l’API Google Drive, rclone et, lorsque les workflows sont activés, GitHub Actions.</p>
+
+    <h2>Données Google consultées</h2>
+    <p>Avec l’autorisation de l’utilisateur, l’outil accède aux fichiers et dossiers Google Drive nécessaires aux sauvegardes configurées. Selon cette configuration, il peut lister, lire, créer, mettre à jour ou supprimer des fichiers.</p>
+
+    <h2>Utilisation, stockage et partage</h2>
+    <p>Les fichiers sont transférés entre la source de sauvegarde et le compte Google Drive de l’utilisateur conformément à sa configuration rclone et aux workflows activés. Les identifiants OAuth sont conservés par l’utilisateur dans son environnement local et, s’il choisit GitHub Actions, dans les secrets GitHub Actions de son dépôt privé. Aucun identifiant OAuth ni secret n’est publié sur ce site.</p>
+    <p>L’outil ne vend ni ne partage les données Google avec des tiers. Google traite les données nécessaires au fonctionnement de Drive. GitHub traite les données nécessaires à l’exécution des workflows configurés par l’utilisateur. Cette page n’utilise pas de publicité ni d’outil d’analyse; GitHub peut enregistrer l’adresse IP des visiteurs à des fins de sécurité conformément à sa politique de confidentialité.</p>
+
+    <h2>Conservation et contrôle</h2>
+    <p>Les sauvegardes restent dans Google Drive jusqu’à ce que l’utilisateur les supprime ou modifie leur rétention. L’utilisateur peut révoquer l’accès de l’application dans les paramètres de sécurité de son compte Google, supprimer les secrets GitHub Actions ou désactiver les workflows concernés.</p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question, utilisez l’adresse de contact du développeur indiquée sur l’écran d’autorisation OAuth de Google.</p>
+  </main>
+  <footer>
+    <p>Outil personnel, non affilié à Google ou GitHub.</p>
+  </footer>
+</body>
+</html>
